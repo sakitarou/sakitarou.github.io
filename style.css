@@ -1,0 +1,195 @@
+@charset "UTF-8";
+* {
+    color: black;
+    font-family: 'Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3','Athelas',sans-serif;
+    
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #ebd413;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#header p {
+    padding-left: 25px;
+    font-size: 20px;
+    font-family: 'Athelas';
+}
+#header ul {
+    display: flex;
+}
+#header li {
+    padding-right: 30px;
+    font-weight: bold;
+}
+
+#top {
+    background: url(images/KeyVisual.png) top center no-repeat;
+    height: 630px;
+    background-size: cover;
+    margin-top: 60px;
+}
+#title {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 130px;
+    background-color: rgba(255, 255, 255, 0.7);
+    position: relative;
+    top: 40%;
+    left: 0;
+}
+.title-p {
+    padding-top: 10px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+
+#title h1 {
+    font-size: 40px;
+    font-family: 'Athelas';
+}
+
+h2 {
+    font-size: 30px;
+    font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN';
+    text-align: center
+}
+h3 {
+    font-size: 20px;
+    font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN';
+}
+
+#fes {
+    width: 980px;
+    margin: 70px auto 50px;
+}
+.fes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.fes p {
+    width: 810px;
+    margin: 30px auto;
+    line-height: 1.5;
+}
+table {
+    border-collapse: collapse;
+}
+table, th, td {
+    border: solid 1px #b9b5b5;
+    text-align: center;
+    padding: 5px;
+}
+th {
+    background-color: #fffdd2;
+}
+
+#menu {
+    width: 100%;
+    background-color: #fffdd2;
+    padding: 70px 0 50px;
+}
+#menu-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.shop-list {
+    padding-top: 30px;
+}
+.menu {
+    display: flex;
+}
+.menu-sub {
+    width: 570px;
+    margin-left: 20px;
+    line-height: 1.5;
+} 
+.shop {
+    display: flex;
+    width: 500px;
+    background-color: #f3d942;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.shop img {
+    margin-right: 10px;
+}
+.content {
+    background-color: #cce198;
+    padding: 5px;
+    margin-top: 30px;
+}
+#more {
+    padding-top: 40px;
+    font-weight: bold;
+}
+
+#access {
+    width: 100%;
+    background-color: #fff;
+    padding: 70px 0 50px;
+}
+.access {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+.access-sub {
+    width: 610px;
+    padding-right: 20px;
+    line-height: 1.5;
+}
+
+#inquiry {
+    width: 100%;
+    background-color: #fffdd2;
+    padding: 70px 0 50px;
+}
+.inquiry {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+}
+.form {
+    padding-top: 30px;
+    line-height: 1.5;
+}
+.form-sub {
+    width: 500px;
+    height: 30px;
+}
+
+#submit {
+    text-align: center;
+    border: #f3d942;
+    border-radius: 24px;
+    background-color: #f3d942;
+    width: 180px;
+    margin: 30px auto 0;
+    padding: 10px;
+}
+
+footer {
+    background-color: #f3d942;
+    text-align: center;
+    padding: 10px;
+}
