@@ -30,6 +30,7 @@ header {
 #header li {
     padding-right: 30px;
     font-weight: bold;
+    list-style: none;
 }
 
 #top {
